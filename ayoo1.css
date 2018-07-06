@@ -1,0 +1,92 @@
+ 
+ 
+h3.judul{
+	font-family:sans-serif;
+	text-align:center;
+	font-size:18px;
+	text-indent:0px;
+	color:#fff;
+	margin-top:20px;
+}
+			}
+h2.judul{
+	margin-top:80px;
+	font-family:gabriola;
+}
+ 
+
+.login{
+		 
+		margin-left:0px;
+		margin-top:50px;
+
+		 background-color:#000066;
+		height:300px;
+		width:300px;
+		border-radius:20px;
+		
+	 
+		
+		
+}
+div.isi div.judul{
+	color:#000000;
+	text-align:center;
+	font-size:21px;
+	font-family:calibri;
+	margin-top:10px;
+	text-indent:100px;
+	float:right;
+	margin-right:200px;
+}
+
+div.login{
+			padding:3px 22px 0;
+			color:#fff;
+			}
+div.login div.grup{
+			margin:15px 0;
+			}
+div.login div.grup label,div.login div.grup input{
+			display:block;
+			color:#fff;}
+div.grup input	{
+			box-shadow:2px 2px #008b8b;}
+div.login div.grup label{
+			font-size:13px;
+			margin-bottom:0px;}
+div.login div.grup input[type="text"],
+div.login div.grup input[type="password"],div.login select{
+			width:100%;
+			height:30px;
+			padding:0 10px;
+			background:#eeeeee;
+			border:none;
+			color:#2f4f4f;}
+div.login div.grup input[type="submit"]{
+			background:#33cd77;
+			padding:2px 20px;
+			margin:5px auto;
+			border:1px solid #33cd77;
+			border-radius:2px;
+			color:#fff;
+			cursor:pointer;}
+div.login div.grup input[type="submit"]{
+			background:#28a45e;}
+	div.login div.grup input[type="reset"]{
+			background:#33cd77;
+			padding:2px 20px;
+			margin:10px auto;
+			border:1px solid #33cd77;
+			border-radius:2px;
+			color:#fff;
+			cursor:pointer;}
+div.login div.grup input[type="reset"]{
+			background:#28a45e;}
+div.isi div.berita{
+	float:right;
+	margin-top:50px;
+	text-align:center;
+	
+}	
+  
