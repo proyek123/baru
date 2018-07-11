@@ -16,9 +16,9 @@ $joo=mysqli_query($db_link,$jun);
 }
 if($joo){
 echo "<script>alert ('Data berhasil disimpan');
-document.location.href='#';</script>\n";
+document.location.href='admin_anggota.php';</script>\n";
 }else {
 echo "<script>alert ('Data gagal disimpan');
-document.location.href='#';</script>\n";
+document.location.href='data_anggota.php';</script>\n";
 }
 ?>

@@ -1,0 +1,139 @@
+	html, body
+	{
+		height: 100%;
+	}
+	
+	body
+	{
+		margin: 0px;
+		padding: 0px;
+	
+		font-family:calibri;
+
+background-color:#E6E6FA;
+		color: #000000;
+	}
+	
+	
+	 h3,h5
+	{
+		margin: 0;
+		padding: 0;
+		color: #008b8b;
+	}
+	
+	p, ol, ul
+	{
+		margin-top: 0;
+	}
+	
+	ol, ul
+	{
+		padding: 0;
+		list-style: none;
+	}
+	
+	p
+	{
+		line-height: 180%;
+		color:#008080;
+	}
+	
+	strong
+	{
+		color: #fff;
+	}
+	
+	a
+	{
+		color: #008080;
+	}
+	
+	
+	a:hover
+	{
+		text-decoration: none;
+	}
+	
+	.container
+	{
+		overflow: hidden;
+		margin: 0em auto;
+		width: 1200px;
+		font-size:18px;
+	}
+	
+ 
+ 
+
+/*********************************************************************************/
+/* Menu                                                                          */
+/*********************************************************************************/
+
+	.menu-wrap{
+			background-color:#008b8b;
+			height:50px;line-height:50px;
+			position:relative;width:100%;
+			margin:auto;
+			margin-right:0px;
+			margin-top:0px;
+			box-shadow:1px 1px 1px 1px  #008b8b;
+			border-radius:14px;
+			border:1px solid #4169E1;
+			}
+div.menu-wrap div.admin{
+	float:right;
+	margin-right:40px;
+	margin-top:0px;
+}
+.menu-wrap ul{
+				list-style:none;
+				}
+.menu-wrap ul li a{
+					float:left;
+					width:120px;
+					display:block;
+					color:#fff;
+					text-decoration:none;
+					text-transform:uppercase;
+					margin-left:50px;}
+.menu-wrap ul li a:hover{
+						  background-color:#000080;
+						  display:block;
+						  text-align:center;
+						  width:120px;						  
+						  }
+.menu-wrap ul li:hover ul {
+							display:block;}
+.menu-wrap ul ul {
+					display:none;
+					list-style:none;
+					position:absolute;
+					background-color:#000080;
+					left:200px;
+					top:50px;
+					margin-left:600px;
+					margin-right:0px;
+					width:120px;
+					}
+.menu-wrap ul ul li a{
+						float:none;display:block;
+						padding-left:30px;
+						text-align:left;
+						width:15px;
+						}
+.menu-wrap ul ul li a:hover .menu-wrap li.active a, .menu-wrap li.active span
+	{
+		color: rgba(0,0,0,.6);
+	
+							color:#fff;
+							width:200px;
+							margin-left:50px;}
+div.menu-wrap div.admin{
+	float:right;
+	margin-right:40px;
+	margin-top:0px;
+
+}
+
+ 

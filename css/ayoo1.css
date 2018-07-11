@@ -1,4 +1,6 @@
- 
+body{
+	background-color:#E6E6FA;
+} 
  
 h3.judul{
 	font-family:sans-serif;
@@ -18,7 +20,7 @@ h2.judul{
 .login{
 		 
 		margin-left:0px;
-		margin-top:50px;
+		margin-top:100px;
 
 		 background-color:#000066;
 		height:300px;

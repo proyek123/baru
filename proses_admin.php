@@ -13,7 +13,7 @@ session_start();
 $_SESSION['user']="user";
 $_SESSION['pass']="pass";
 echo "<script>alert('Login Sukses');
-document.location.href='data_anggota.php';</script>\n";
+document.location.href='home_petugas.php';</script>\n";
 }else {
 echo "<script>alert ('Login Gagal');
 document.location.href='login_admin.php';</script>\n";
